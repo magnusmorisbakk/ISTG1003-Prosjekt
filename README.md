@@ -5,24 +5,6 @@
 * [Kaggle](https://www.kaggle.com/datasets/thedevastator/airbnb-prices-in-european-cities?resource=download)
 
 ### Dataset Variables
-room_type: the type of the accommodation 
-room_shared: dummy variable for shared rooms
-room_private: dummy variable for private rooms
-person_capacity: the maximum number of guests 
-host_is_superhost: dummy variable for superhost status
-multi: dummy variable if the listing belongs to hosts with 2-4 offers
-biz: dummy variable if the listing belongs to hosts with more than 4 offers
-cleanliness_rating: cleanliness rating
-guest_satisfaction_overall: overall rating of the listing
-bedrooms: number of bedrooms (0 for studios)
-dist: distance from city centre in km
-metro_dist: distance from nearest metro station in km
-attr_index: attraction index of the listing location
-attr_index_norm: normalised attraction index (0-100)
-rest_index: restaurant index of the listing location
-attr_index_norm: normalised restaurant index (0-100)
-lng: longitude of the listing location
-lat: latitude of the listing location
 ```python
 int # Data entry
 float realSum # Full price of accommodation for two people and two nights in EUR
