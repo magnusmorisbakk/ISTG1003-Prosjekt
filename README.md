@@ -3,3 +3,46 @@
 ## Relevant Dataset Resources
 * [Further dataset information from zenodo](https://zenodo.org/records/4446043#.Y9Y9ENJBwUE)
 * [Kaggle](https://www.kaggle.com/datasets/thedevastator/airbnb-prices-in-european-cities?resource=download)
+
+### Dataset Variables
+room_type: the type of the accommodation 
+room_shared: dummy variable for shared rooms
+room_private: dummy variable for private rooms
+person_capacity: the maximum number of guests 
+host_is_superhost: dummy variable for superhost status
+multi: dummy variable if the listing belongs to hosts with 2-4 offers
+biz: dummy variable if the listing belongs to hosts with more than 4 offers
+cleanliness_rating: cleanliness rating
+guest_satisfaction_overall: overall rating of the listing
+bedrooms: number of bedrooms (0 for studios)
+dist: distance from city centre in km
+metro_dist: distance from nearest metro station in km
+attr_index: attraction index of the listing location
+attr_index_norm: normalised attraction index (0-100)
+rest_index: restaurant index of the listing location
+attr_index_norm: normalised restaurant index (0-100)
+lng: longitude of the listing location
+lat: latitude of the listing location
+```python
+int # Data entry
+float realSum # Full price of accommodation for two people and two nights in EUR
+str room_type # type of the acoomodation (Private room, Entire home/apt, Shared room)
+bool room_shared # if room is shared with another person
+bool room_private # if room is not shared with another person
+float person_capacity # the maximum number of guests
+bool host_is_super_host # superhost status
+int multi # if the listing belongs to hosts with 2-4 offers
+int biz # if the listing belongs to host with more than 4 offers
+float cleanliness_raing # cleanliness rating
+float guest_satisfaction_overall # overall rating of listing
+int bedrooms # number of bedrooms (0 for studios)
+float dist # distance from city centre in km
+float metro_dist # distance from nearest metro station in km
+float attr_index # attraction index of listing location
+float attr_index_norm # normalised attraction index (0-100)
+float rest_index # restaurant index of the listing locaiton
+float attr_index_norm # normalised restaurant index (0-100)
+float lng # longitude of the listing location
+float lat # latitude of the listing locaiton
+```
+
