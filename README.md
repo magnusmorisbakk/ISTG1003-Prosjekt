@@ -28,3 +28,8 @@ float lng # longitude of the listing location
 float lat # latitude of the listing locaiton
 ```
 
+## Dependencies
+Install dependencies needed for the project:
+```bash
+py -m pip install pandas numpy matplotlib seaborn statsmodels sklearn 
+```
